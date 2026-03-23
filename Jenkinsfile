@@ -8,7 +8,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch: 'main', url: 'https://github.com/akshai-cs/MavenApp_Test.git'
+				git branch: 'main', url: 'https://github.com/LikithReddy0409/MyMavenApp.git'
 			}
 		}
 		stage('Build'){
